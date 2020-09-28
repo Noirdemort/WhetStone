@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C89F0152521C48F00BFDB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0142521C48F00BFDB5F /* AppDelegate.swift */; };
+		5C89F0172521C48F00BFDB5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */; };
+		5C89F0192521C48F00BFDB5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0182521C48F00BFDB5F /* ViewController.swift */; };
+		5C89F01C2521C48F00BFDB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01A2521C48F00BFDB5F /* Main.storyboard */; };
+		5C89F01E2521C49400BFDB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01D2521C49400BFDB5F /* Assets.xcassets */; };
+		5C89F0212521C49400BFDB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01F2521C49400BFDB5F /* LaunchScreen.storyboard */; };
+		5C89F02C2521C49500BFDB5F /* WhitStoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */; };
+		5C89F0372521C49500BFDB5F /* WhitStoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C89F0282521C49500BFDB5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C89F0092521C48F00BFDB5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C89F0102521C48F00BFDB5F;
+			remoteInfo = WhitStone;
+		};
+		5C89F0332521C49500BFDB5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C89F0092521C48F00BFDB5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C89F0102521C48F00BFDB5F;
+			remoteInfo = WhitStone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C89F0112521C48F00BFDB5F /* WhitStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89F0142521C48F00BFDB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C89F0182521C48F00BFDB5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C89F01B2521C48F00BFDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C89F01D2521C49400BFDB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C89F0202521C49400BFDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C89F0222521C49400BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitStoneTests.swift; sourceTree = "<group>"; };
+		5C89F02D2521C49500BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitStoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitStoneUITests.swift; sourceTree = "<group>"; };
+		5C89F0382521C49500BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C89F00E2521C48F00BFDB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F0242521C49500BFDB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F02F2521C49500BFDB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C89F0082521C48F00BFDB5F = {
+			isa = PBXGroup;
+			children = (
+				5C89F0132521C48F00BFDB5F /* WhitStone */,
+				5C89F02A2521C49500BFDB5F /* WhitStoneTests */,
+				5C89F0352521C49500BFDB5F /* WhitStoneUITests */,
+				5C89F0122521C48F00BFDB5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C89F0122521C48F00BFDB5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C89F0112521C48F00BFDB5F /* WhitStone.app */,
+				5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */,
+				5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C89F0132521C48F00BFDB5F /* WhitStone */ = {
+			isa = PBXGroup;
+			children = (
+				5C89F0142521C48F00BFDB5F /* AppDelegate.swift */,
+				5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */,
+				5C89F0182521C48F00BFDB5F /* ViewController.swift */,
+				5C89F01A2521C48F00BFDB5F /* Main.storyboard */,
+				5C89F01D2521C49400BFDB5F /* Assets.xcassets */,
+				5C89F01F2521C49400BFDB5F /* LaunchScreen.storyboard */,
+				5C89F0222521C49400BFDB5F /* Info.plist */,
+			);
+			path = WhitStone;
+			sourceTree = "<group>";
+		};
+		5C89F02A2521C49500BFDB5F /* WhitStoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */,
+				5C89F02D2521C49500BFDB5F /* Info.plist */,
+			);
+			path = WhitStoneTests;
+			sourceTree = "<group>";
+		};
+		5C89F0352521C49500BFDB5F /* WhitStoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */,
+				5C89F0382521C49500BFDB5F /* Info.plist */,
+			);
+			path = WhitStoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C89F0102521C48F00BFDB5F /* WhitStone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStone" */;
+			buildPhases = (
+				5C89F00D2521C48F00BFDB5F /* Sources */,
+				5C89F00E2521C48F00BFDB5F /* Frameworks */,
+				5C89F00F2521C48F00BFDB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhitStone;
+			productName = WhitStone;
+			productReference = 5C89F0112521C48F00BFDB5F /* WhitStone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C89F0262521C49500BFDB5F /* WhitStoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneTests" */;
+			buildPhases = (
+				5C89F0232521C49500BFDB5F /* Sources */,
+				5C89F0242521C49500BFDB5F /* Frameworks */,
+				5C89F0252521C49500BFDB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C89F0292521C49500BFDB5F /* PBXTargetDependency */,
+			);
+			name = WhitStoneTests;
+			productName = WhitStoneTests;
+			productReference = 5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C89F0312521C49500BFDB5F /* WhitStoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneUITests" */;
+			buildPhases = (
+				5C89F02E2521C49500BFDB5F /* Sources */,
+				5C89F02F2521C49500BFDB5F /* Frameworks */,
+				5C89F0302521C49500BFDB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C89F0342521C49500BFDB5F /* PBXTargetDependency */,
+			);
+			name = WhitStoneUITests;
+			productName = WhitStoneUITests;
+			productReference = 5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C89F0092521C48F00BFDB5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5C89F0102521C48F00BFDB5F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5C89F0262521C49500BFDB5F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5C89F0102521C48F00BFDB5F;
+					};
+					5C89F0312521C49500BFDB5F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5C89F0102521C48F00BFDB5F;
+					};
+				};
+			};
+			buildConfigurationList = 5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhitStone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C89F0082521C48F00BFDB5F;
+			productRefGroup = 5C89F0122521C48F00BFDB5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C89F0102521C48F00BFDB5F /* WhitStone */,
+				5C89F0262521C49500BFDB5F /* WhitStoneTests */,
+				5C89F0312521C49500BFDB5F /* WhitStoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C89F00F2521C48F00BFDB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89F0212521C49400BFDB5F /* LaunchScreen.storyboard in Resources */,
+				5C89F01E2521C49400BFDB5F /* Assets.xcassets in Resources */,
+				5C89F01C2521C48F00BFDB5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F0252521C49500BFDB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F0302521C49500BFDB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C89F00D2521C48F00BFDB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89F0192521C48F00BFDB5F /* ViewController.swift in Sources */,
+				5C89F0152521C48F00BFDB5F /* AppDelegate.swift in Sources */,
+				5C89F0172521C48F00BFDB5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F0232521C49500BFDB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89F02C2521C49500BFDB5F /* WhitStoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C89F02E2521C49500BFDB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89F0372521C49500BFDB5F /* WhitStoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C89F0292521C49500BFDB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C89F0102521C48F00BFDB5F /* WhitStone */;
+			targetProxy = 5C89F0282521C49500BFDB5F /* PBXContainerItemProxy */;
+		};
+		5C89F0342521C49500BFDB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C89F0102521C48F00BFDB5F /* WhitStone */;
+			targetProxy = 5C89F0332521C49500BFDB5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C89F01A2521C48F00BFDB5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C89F01B2521C48F00BFDB5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C89F01F2521C49400BFDB5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C89F0202521C49400BFDB5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C89F0392521C49500BFDB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C89F03A2521C49500BFDB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C89F03C2521C49500BFDB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C89F03D2521C49500BFDB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C89F03F2521C49500BFDB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitStone.app/WhitStone";
+			};
+			name = Debug;
+		};
+		5C89F0402521C49500BFDB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitStone.app/WhitStone";
+			};
+			name = Release;
+		};
+		5C89F0422521C49500BFDB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhitStone;
+			};
+			name = Debug;
+		};
+		5C89F0432521C49500BFDB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = WhitStoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhitStone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhitStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C89F0392521C49500BFDB5F /* Debug */,
+				5C89F03A2521C49500BFDB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C89F03C2521C49500BFDB5F /* Debug */,
+				5C89F03D2521C49500BFDB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C89F03F2521C49500BFDB5F /* Debug */,
+				5C89F0402521C49500BFDB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C89F0422521C49500BFDB5F /* Debug */,
+				5C89F0432521C49500BFDB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C89F0092521C48F00BFDB5F /* Project object */;
+}
