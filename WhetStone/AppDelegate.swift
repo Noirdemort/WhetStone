@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  WhitStone
+//  WhetStone
 //
 //  Created by Noirdemort on 28/09/20.
 //
 
 import UIKit
 
-@main
+
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
