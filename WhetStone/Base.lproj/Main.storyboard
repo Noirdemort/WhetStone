@@ -57,6 +57,18 @@
                                     <action selector="showData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b4N-cf-mDf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90I-3t-c5h">
+                                <rect key="frame" x="344" y="40" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="XM9-SZ-0SU"/>
+                                    <constraint firstAttribute="height" constant="50" id="xfb-kg-HLC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" image="arrow.counterclockwise.icloud.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="showHistory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2jR-Ye-Xet"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -67,8 +79,10 @@
                             <constraint firstItem="Daf-uT-nEA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ylh-6d-aC2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tDl-r5-4aI" secondAttribute="trailing" constant="10" id="fHO-0x-fuP"/>
                             <constraint firstItem="tDl-r5-4aI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="g7b-hb-s4B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="90I-3t-c5h" secondAttribute="trailing" constant="20" id="hgL-Q8-k9X"/>
                             <constraint firstItem="tDl-r5-4aI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="v0j-9U-1EO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G6C-8n-Mmb" secondAttribute="trailing" constant="20" id="vXt-1e-EGs"/>
+                            <constraint firstItem="90I-3t-c5h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="xTU-JM-4A6"/>
                             <constraint firstItem="G6C-8n-Mmb" firstAttribute="top" secondItem="Daf-uT-nEA" secondAttribute="bottom" constant="30" id="zXO-8G-T3T"/>
                         </constraints>
                     </view>
@@ -83,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="431.8840579710145" y="111.83035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--History View Controller-->
         <scene sceneID="3fK-By-Qni">
             <objects>
-                <viewController id="jaW-BN-2uZ" sceneMemberID="viewController">
+                <viewController id="jaW-BN-2uZ" customClass="HistoryViewController" customModule="WhetStone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xEk-sE-Gct">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,6 +112,9 @@
                                         <rect key="frame" x="0.0" y="3.5" width="103.5" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="goBack:" destination="jaW-BN-2uZ" eventType="touchUpInside" id="9Mo-GX-0dn"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETW-hd-hzI">
                                         <rect key="frame" x="103.5" y="0.0" width="270.5" height="41"/>
@@ -114,7 +131,7 @@
                                 <rect key="frame" x="0.0" y="115" width="414" height="781"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="saS-KB-IVs">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyCell" rowHeight="131" id="saS-KB-IVs" customClass="HistoryTableCell" customModule="WhetStone" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="saS-KB-IVs" id="vdR-I3-glv">
@@ -135,6 +152,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="Aun-AG-7Xy" secondAttribute="trailing" constant="10" id="mOH-sx-oKg"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="accessCodeLabel" destination="Aun-AG-7Xy" id="cM4-Ja-EeE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -153,6 +173,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="3SG-lT-75k"/>
                     <connections>
+                        <outlet property="historyTableView" destination="GaA-eJ-1vX" id="3om-uR-Rzd"/>
                         <segue destination="AvB-fS-gNi" kind="show" identifier="localSummarySegue" id="Had-Is-RaU"/>
                     </connections>
                 </viewController>
@@ -532,9 +553,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Had-Is-RaU"/>
+        <segue reference="PRv-dR-9qX"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="arrow.counterclockwise.icloud.fill" catalog="system" width="128" height="88"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
