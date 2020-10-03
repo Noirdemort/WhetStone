@@ -20,6 +20,11 @@ class AccessViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
+	
+	
+	@IBAction func showHistory(_ sender: Any){
+		self.performSegue(withIdentifier: "storageSegue", sender: nil)
+	}
 
 	
 	@IBAction func showData(_ sender: Any) {
@@ -51,8 +56,27 @@ class AccessViewController: UIViewController {
 					guard let parseData = data else { return }
 					
 					guard let csv = String(data: parseData, encoding: .utf8) else { return }
+					
+					do {
+					  	let fileManager = FileManager.default
+						let docs = try fileManager.url(for: .documentDirectory,
+													   in: .userDomainMask,
+													appropriateFor: nil, create: false)
+						let path = docs.appendingPathComponent(accessCode)
+					  
+					  	fileManager.createFile(atPath: path.absoluteString,
+											 contents: parseData, attributes: nil)
+						
+					} catch {
+					  // handle error
+					}
 				
 					DispatchQueue.main.async {
+						if let history = UserDefaults.standard.array(forKey: "accessCodes") as? [String] {
+							var records = history
+							records.append(accessCode)
+							UserDefaults.standard.set(records, forKey: "accessCodes")
+						}
 						self.csv = csv
 						self.performSegue(withIdentifier: "summarySegue", sender: nil)
 					}
@@ -70,6 +94,11 @@ class AccessViewController: UIViewController {
 	}
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		
+		if let _ = segue.destination as? HistoryViewController {
+			
+		}
+		
 		if let destination = segue.destination as? SummaryViewController {
 			
 			var localParser = CSVParser()
