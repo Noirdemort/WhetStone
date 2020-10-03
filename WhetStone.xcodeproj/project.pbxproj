@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3054AF25241C6700CF0DC5 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3054AE25241C6700CF0DC5 /* ResultsViewController.swift */; };
 		5C89F0152521C48F00BFDB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0142521C48F00BFDB5F /* AppDelegate.swift */; };
 		5C89F0172521C48F00BFDB5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */; };
-		5C89F0192521C48F00BFDB5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0182521C48F00BFDB5F /* ViewController.swift */; };
+		5C89F0192521C48F00BFDB5F /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0182521C48F00BFDB5F /* AccessViewController.swift */; };
 		5C89F01C2521C48F00BFDB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01A2521C48F00BFDB5F /* Main.storyboard */; };
 		5C89F01E2521C49400BFDB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01D2521C49400BFDB5F /* Assets.xcassets */; };
 		5C89F0212521C49400BFDB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F01F2521C49400BFDB5F /* LaunchScreen.storyboard */; };
-		5C89F02C2521C49500BFDB5F /* WhitStoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */; };
-		5C89F0372521C49500BFDB5F /* WhitStoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */; };
+		5C89F02C2521C49500BFDB5F /* WhetStoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F02B2521C49500BFDB5F /* WhetStoneTests.swift */; };
+		5C89F0372521C49500BFDB5F /* WhetStoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0362521C49500BFDB5F /* WhetStoneUITests.swift */; };
+		5C89F0522522372700BFDB5F /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F0512522372700BFDB5F /* SummaryViewController.swift */; };
+		5C89F05D2522498D00BFDB5F /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F05C2522498D00BFDB5F /* Parser.swift */; };
+		5C8C7E8725280D04000D05A9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C7E8625280D04000D05A9 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,32 +27,37 @@
 			containerPortal = 5C89F0092521C48F00BFDB5F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C89F0102521C48F00BFDB5F;
-			remoteInfo = WhitStone;
+			remoteInfo = WhetStone;
 		};
 		5C89F0332521C49500BFDB5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C89F0092521C48F00BFDB5F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C89F0102521C48F00BFDB5F;
-			remoteInfo = WhitStone;
+			remoteInfo = WhetStone;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C89F0112521C48F00BFDB5F /* WhitStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3054AE25241C6700CF0DC5 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5C89F0112521C48F00BFDB5F /* WhetStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhetStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C89F0142521C48F00BFDB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C89F0182521C48F00BFDB5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C89F0182521C48F00BFDB5F /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
 		5C89F01B2521C48F00BFDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C89F01D2521C49400BFDB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C89F0202521C49400BFDB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C89F0222521C49400BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitStoneTests.swift; sourceTree = "<group>"; };
+		5C89F0272521C49500BFDB5F /* WhetStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhetStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89F02B2521C49500BFDB5F /* WhetStoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhetStoneTests.swift; sourceTree = "<group>"; };
 		5C89F02D2521C49500BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitStoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitStoneUITests.swift; sourceTree = "<group>"; };
+		5C89F0322521C49500BFDB5F /* WhetStoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhetStoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89F0362521C49500BFDB5F /* WhetStoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhetStoneUITests.swift; sourceTree = "<group>"; };
 		5C89F0382521C49500BFDB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C89F0472521C49F00BFDB5F /* WhetStone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhetStone.entitlements; sourceTree = "<group>"; };
+		5C89F0512522372700BFDB5F /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		5C89F05C2522498D00BFDB5F /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		5C8C7E8625280D04000D05A9 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +88,9 @@
 		5C89F0082521C48F00BFDB5F = {
 			isa = PBXGroup;
 			children = (
-				5C89F0132521C48F00BFDB5F /* WhitStone */,
-				5C89F02A2521C49500BFDB5F /* WhitStoneTests */,
-				5C89F0352521C49500BFDB5F /* WhitStoneUITests */,
+				5C89F0132521C48F00BFDB5F /* WhetStone */,
+				5C89F02A2521C49500BFDB5F /* WhetStoneTests */,
+				5C89F0352521C49500BFDB5F /* WhetStoneUITests */,
 				5C89F0122521C48F00BFDB5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +98,56 @@
 		5C89F0122521C48F00BFDB5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C89F0112521C48F00BFDB5F /* WhitStone.app */,
-				5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */,
-				5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */,
+				5C89F0112521C48F00BFDB5F /* WhetStone.app */,
+				5C89F0272521C49500BFDB5F /* WhetStoneTests.xctest */,
+				5C89F0322521C49500BFDB5F /* WhetStoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C89F0132521C48F00BFDB5F /* WhitStone */ = {
+		5C89F0132521C48F00BFDB5F /* WhetStone */ = {
 			isa = PBXGroup;
 			children = (
+				5C89F0472521C49F00BFDB5F /* WhetStone.entitlements */,
 				5C89F0142521C48F00BFDB5F /* AppDelegate.swift */,
 				5C89F0162521C48F00BFDB5F /* SceneDelegate.swift */,
-				5C89F0182521C48F00BFDB5F /* ViewController.swift */,
+				5C89F0182521C48F00BFDB5F /* AccessViewController.swift */,
 				5C89F01A2521C48F00BFDB5F /* Main.storyboard */,
+				5C8C7E8625280D04000D05A9 /* HistoryViewController.swift */,
+				5C3054AE25241C6700CF0DC5 /* ResultsViewController.swift */,
+				5C89F05C2522498D00BFDB5F /* Parser.swift */,
+				5C89F0512522372700BFDB5F /* SummaryViewController.swift */,
 				5C89F01D2521C49400BFDB5F /* Assets.xcassets */,
 				5C89F01F2521C49400BFDB5F /* LaunchScreen.storyboard */,
 				5C89F0222521C49400BFDB5F /* Info.plist */,
 			);
-			path = WhitStone;
+			path = WhetStone;
 			sourceTree = "<group>";
 		};
-		5C89F02A2521C49500BFDB5F /* WhitStoneTests */ = {
+		5C89F02A2521C49500BFDB5F /* WhetStoneTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C89F02B2521C49500BFDB5F /* WhitStoneTests.swift */,
+				5C89F02B2521C49500BFDB5F /* WhetStoneTests.swift */,
 				5C89F02D2521C49500BFDB5F /* Info.plist */,
 			);
-			path = WhitStoneTests;
+			path = WhetStoneTests;
 			sourceTree = "<group>";
 		};
-		5C89F0352521C49500BFDB5F /* WhitStoneUITests */ = {
+		5C89F0352521C49500BFDB5F /* WhetStoneUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C89F0362521C49500BFDB5F /* WhitStoneUITests.swift */,
+				5C89F0362521C49500BFDB5F /* WhetStoneUITests.swift */,
 				5C89F0382521C49500BFDB5F /* Info.plist */,
 			);
-			path = WhitStoneUITests;
+			path = WhetStoneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C89F0102521C48F00BFDB5F /* WhitStone */ = {
+		5C89F0102521C48F00BFDB5F /* WhetStone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStone" */;
+			buildConfigurationList = 5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStone" */;
 			buildPhases = (
 				5C89F00D2521C48F00BFDB5F /* Sources */,
 				5C89F00E2521C48F00BFDB5F /* Frameworks */,
@@ -143,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = WhitStone;
-			productName = WhitStone;
-			productReference = 5C89F0112521C48F00BFDB5F /* WhitStone.app */;
+			name = WhetStone;
+			productName = WhetStone;
+			productReference = 5C89F0112521C48F00BFDB5F /* WhetStone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C89F0262521C49500BFDB5F /* WhitStoneTests */ = {
+		5C89F0262521C49500BFDB5F /* WhetStoneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneTests" */;
+			buildConfigurationList = 5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStoneTests" */;
 			buildPhases = (
 				5C89F0232521C49500BFDB5F /* Sources */,
 				5C89F0242521C49500BFDB5F /* Frameworks */,
@@ -161,14 +175,14 @@
 			dependencies = (
 				5C89F0292521C49500BFDB5F /* PBXTargetDependency */,
 			);
-			name = WhitStoneTests;
-			productName = WhitStoneTests;
-			productReference = 5C89F0272521C49500BFDB5F /* WhitStoneTests.xctest */;
+			name = WhetStoneTests;
+			productName = WhetStoneTests;
+			productReference = 5C89F0272521C49500BFDB5F /* WhetStoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C89F0312521C49500BFDB5F /* WhitStoneUITests */ = {
+		5C89F0312521C49500BFDB5F /* WhetStoneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneUITests" */;
+			buildConfigurationList = 5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStoneUITests" */;
 			buildPhases = (
 				5C89F02E2521C49500BFDB5F /* Sources */,
 				5C89F02F2521C49500BFDB5F /* Frameworks */,
@@ -179,9 +193,9 @@
 			dependencies = (
 				5C89F0342521C49500BFDB5F /* PBXTargetDependency */,
 			);
-			name = WhitStoneUITests;
-			productName = WhitStoneUITests;
-			productReference = 5C89F0322521C49500BFDB5F /* WhitStoneUITests.xctest */;
+			name = WhetStoneUITests;
+			productName = WhetStoneUITests;
+			productReference = 5C89F0322521C49500BFDB5F /* WhetStoneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhitStone" */;
+			buildConfigurationList = 5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhetStone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C89F0102521C48F00BFDB5F /* WhitStone */,
-				5C89F0262521C49500BFDB5F /* WhitStoneTests */,
-				5C89F0312521C49500BFDB5F /* WhitStoneUITests */,
+				5C89F0102521C48F00BFDB5F /* WhetStone */,
+				5C89F0262521C49500BFDB5F /* WhetStoneTests */,
+				5C89F0312521C49500BFDB5F /* WhetStoneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C89F0192521C48F00BFDB5F /* ViewController.swift in Sources */,
+				5C89F0192521C48F00BFDB5F /* AccessViewController.swift in Sources */,
 				5C89F0152521C48F00BFDB5F /* AppDelegate.swift in Sources */,
+				5C89F05D2522498D00BFDB5F /* Parser.swift in Sources */,
+				5C3054AF25241C6700CF0DC5 /* ResultsViewController.swift in Sources */,
 				5C89F0172521C48F00BFDB5F /* SceneDelegate.swift in Sources */,
+				5C8C7E8725280D04000D05A9 /* HistoryViewController.swift in Sources */,
+				5C89F0522522372700BFDB5F /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C89F02C2521C49500BFDB5F /* WhitStoneTests.swift in Sources */,
+				5C89F02C2521C49500BFDB5F /* WhetStoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C89F0372521C49500BFDB5F /* WhitStoneUITests.swift in Sources */,
+				5C89F0372521C49500BFDB5F /* WhetStoneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		5C89F0292521C49500BFDB5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C89F0102521C48F00BFDB5F /* WhitStone */;
+			target = 5C89F0102521C48F00BFDB5F /* WhetStone */;
 			targetProxy = 5C89F0282521C49500BFDB5F /* PBXContainerItemProxy */;
 		};
 		5C89F0342521C49500BFDB5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C89F0102521C48F00BFDB5F /* WhitStone */;
+			target = 5C89F0102521C48F00BFDB5F /* WhetStone */;
 			targetProxy = 5C89F0332521C49500BFDB5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,15 +454,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhetStone/WhetStone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStone/Info.plist;
+				INFOPLIST_FILE = WhetStone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,15 +477,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhetStone/WhetStone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStone/Info.plist;
+				INFOPLIST_FILE = WhetStone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStone;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,18 +502,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStoneTests/Info.plist;
+				INFOPLIST_FILE = WhetStoneTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitStone.app/WhitStone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhetStone.app/WhetStone";
 			};
 			name = Debug;
 		};
@@ -498,18 +524,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStoneTests/Info.plist;
+				INFOPLIST_FILE = WhetStoneTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitStone.app/WhitStone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhetStone.app/WhetStone";
 			};
 			name = Release;
 		};
@@ -519,17 +545,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStoneUITests/Info.plist;
+				INFOPLIST_FILE = WhetStoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStoneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WhitStone;
+				TEST_TARGET_NAME = WhetStone;
 			};
 			name = Debug;
 		};
@@ -539,24 +565,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
-				INFOPLIST_FILE = WhitStoneUITests/Info.plist;
+				INFOPLIST_FILE = WhetStoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhitStoneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.v01d.WhetStoneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WhitStone;
+				TEST_TARGET_NAME = WhetStone;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhitStone" */ = {
+		5C89F00C2521C48F00BFDB5F /* Build configuration list for PBXProject "WhetStone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C89F0392521C49500BFDB5F /* Debug */,
@@ -565,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStone" */ = {
+		5C89F03B2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C89F03C2521C49500BFDB5F /* Debug */,
@@ -574,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneTests" */ = {
+		5C89F03E2521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStoneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C89F03F2521C49500BFDB5F /* Debug */,
@@ -583,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhitStoneUITests" */ = {
+		5C89F0412521C49500BFDB5F /* Build configuration list for PBXNativeTarget "WhetStoneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C89F0422521C49500BFDB5F /* Debug */,

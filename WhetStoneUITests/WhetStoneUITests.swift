@@ -1,13 +1,13 @@
 //
-//  WhitStoneUITests.swift
-//  WhitStoneUITests
+//  WhetStoneUITests.swift
+//  WhetStoneUITests
 //
 //  Created by Noirdemort on 28/09/20.
 //
 
 import XCTest
 
-class WhitStoneUITests: XCTestCase {
+class WhetStoneUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
