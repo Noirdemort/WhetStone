@@ -1,0 +1,11 @@
+# WhetStone
+
+A generic data parsing utility. 
+
+This project aims at exemplifying a csv based static data distribution format, 
+which can be used by individuals to filter and get specific records.
+
+
+Idea is to have a central app and a database where data is posted which is then 
+fetched and parsed for the user. User can filter data to get desired results.
+
