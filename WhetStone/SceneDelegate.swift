@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  WhitStone
+//  WhetStone
 //
 //  Created by Noirdemort on 28/09/20.
 //
