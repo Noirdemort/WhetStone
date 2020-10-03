@@ -17,5 +17,6 @@ fetched and parsed for the user. User can filter data to get desired results.
 
 # TODO 
 
-Add limit of around 100-1000 access codes storage.
-
+- Add limit of around 100-1000 access codes storage.
+- Add LRU based rotation of array for elimination.
+- Provide Comparable Functionality in filters alongside Equatable.
